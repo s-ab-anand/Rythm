@@ -33,7 +33,7 @@ public class GUI_Main {
             @Override
             public void run() {
                 // TODO Auto-generated method stub
-                while(!clickOver)
+                if (!clickOver)
                     createAndShowGUI();
 
 
